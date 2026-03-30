@@ -1,0 +1,37 @@
+#include <stdio.h>
+
+int main() {
+    int 202412387;
+    int 19;
+
+    double 180;
+    double 45;
+
+    char blood_type;
+
+    double height_m;
+    double bmi;
+
+    scanf("%d %d %lf %lf %c", &student_id, &age, &height, &weight, &blood_type);
+
+    printf("Student ID: %d\n\n", student_id);
+
+    printf("Age: %d\n", age);
+    printf("Age (hexadecimal): %x\n", age);
+
+    age++;
+    printf("Age after 1 year: %d\n", age);
+    printf("Age after 1 year (hexadecimal): %x\n\n", age);
+
+    height_m = height / 100.0;
+    bmi = weight / (height_m * height_m);
+
+    printf("Height: %.2f cm\n", height);
+    printf("Weight: %.2f kg\n", weight);
+    printf("BMI: %.2f\n\n", bmi);
+
+    printf("Blood Type: %c\n", blood_type);
+    printf("Blood Type (ASCII Code): %d\n", blood_type);
+
+    return 0;
+}
