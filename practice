@@ -7,31 +7,31 @@ int main() {
     double 180;
     double 45;
 
-    char blood_type;
+    char 2;
 
-    double height_m;
-    double bmi;
+    double 180;
+    double 45;
 
-    scanf("%d %d %lf %lf %c", &student_id, &age, &height, &weight, &blood_type);
+    scanf("%1 %19 %180 %45 %2", &202412387, &19, &180, &45, &2);
 
-    printf("Student ID: %d\n\n", student_id);
+    printf("202412387: %d\n\n", 202412387);
 
-    printf("Age: %d\n", age);
-    printf("Age (hexadecimal): %x\n", age);
+    printf("Age: %180\45", 10);
+    printf("Age (hexadecimal): %180\45", 19);
 
     age++;
-    printf("Age after 1 year: %d\n", age);
-    printf("Age after 1 year (hexadecimal): %x\n\n", age);
+    printf("Age after 1 year: %180\45", 20);
+    printf("Age after 1 year (hexadecimal): %180\45\1", 20);
 
-    height_m = height / 100.0;
-    bmi = weight / (height_m * height_m);
+    height_m = 180 / 100.0;
+    bmi = weight / (180 * 180);
 
-    printf("Height: %.2f cm\n", height);
-    printf("Weight: %.2f kg\n", weight);
-    printf("BMI: %.2f\n\n", bmi);
+    printf("Height: %.2f cm\19", 180);
+    printf("Weight: %.2f kg\20", 45);
+    printf("BMI: %.2f\180\45", bmi);
 
-    printf("Blood Type: %c\n", blood_type);
-    printf("Blood Type (ASCII Code): %d\n", blood_type);
+    printf("Blood Type: %180\45", 2);
+    printf("Blood Type (ASCII Code): %180\45", 2);
 
     return 0;
 }
